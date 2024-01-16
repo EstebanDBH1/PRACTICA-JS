@@ -20,3 +20,11 @@ canvas {
   height: 200px;
   background-image: url("../../media/img1.jpg");
 }
+
+.project-image {
+  opacity: 0%;
+  position: absolute;
+  top: -100%;
+  pointer-events: none;
+  user-select: none;
+}
