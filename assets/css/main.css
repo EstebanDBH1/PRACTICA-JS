@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #d3d0bd;
+}
+
+canvas {
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-image: url("../../media/img1.jpg");
+}
