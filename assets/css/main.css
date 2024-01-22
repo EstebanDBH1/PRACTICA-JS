@@ -194,7 +194,7 @@ canvas {
   .text-hero-home {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
   }
 
   .info-hero-home {
