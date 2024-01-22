@@ -154,9 +154,10 @@ gsap.to(".marquee_part", {
   ease: "linear",
 });
 
-/* btn */
+/* btn 
 const btn = document.querySelector(".btn-expand");
 
 window.addEventListener("scroll", () => {
   btn.classList.toggle("active", window.scrollY > 100);
 });
+*/
