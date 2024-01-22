@@ -165,6 +165,8 @@ canvas {
   font-size: 71px;
 }
 
+/* ====================== MEDIA QUERYS =================================== */
+
 /* MEDIA QUERYS SECTION HERO */
 @media (max-width: 940px) {
   .btn-mobile {
@@ -201,6 +203,7 @@ canvas {
   .located {
     padding: 0;
     order: 2;
+    display: none;
   }
 
   .marquee {
