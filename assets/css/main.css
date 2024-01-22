@@ -169,6 +169,10 @@ canvas {
 
 /* MEDIA QUERYS SECTION HERO */
 @media (max-width: 940px) {
+  .header {
+    padding: 1rem;
+  }
+
   .btn-mobile {
     display: block;
     cursor: pointer;
