@@ -1,4 +1,3 @@
-
 /*
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
@@ -150,8 +149,6 @@ animate();
 
 */
 
-
-
 // TEXT MARQUEE
 gsap.to(".marquee_part", {
   xPercent: -100,
@@ -160,10 +157,9 @@ gsap.to(".marquee_part", {
   ease: "linear",
 });
 
-/* btn 
+/* btn */
 const btn = document.querySelector(".btn-expand");
 
 window.addEventListener("scroll", () => {
   btn.classList.toggle("active", window.scrollY > 100);
 });
-*/
