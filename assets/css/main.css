@@ -95,50 +95,6 @@
   padding: 0 1rem;
 }
 
-/* MEDIA QUERYS SECTION HERO */
-
-@media (max-width: 940px) {
-  .btn-mobile {
-    display: block;
-    cursor: pointer;
-  }
-  .co-nav-links {
-    display: none;
-  }
-
-  .service-hero {
-    font-size: 24px;
-  }
-
-  .marquee {
-    font-size: 140px;
-  }
-}
-
-@media (max-width: 720px) {
-  .text-hero-home {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .info-hero-home {
-    order: 2;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2rem;
-    align-items: center;
-  }
-  .located {
-    padding: 0;
-    order: 2;
-  }
-
-  .marquee {
-    order: 1;
-  }
-}
-
 /* section about */
 #section-about {
   padding-top: 5rem;
@@ -207,4 +163,47 @@ canvas {
 
 .title-project {
   font-size: 71px;
+}
+
+/* MEDIA QUERYS SECTION HERO */
+@media (max-width: 940px) {
+  .btn-mobile {
+    display: block;
+    cursor: pointer;
+  }
+  .co-nav-links {
+    display: none;
+  }
+
+  .service-hero {
+    font-size: 24px;
+  }
+
+  .marquee {
+    font-size: 140px;
+  }
+}
+
+@media (max-width: 720px) {
+  .text-hero-home {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .info-hero-home {
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+  }
+  .located {
+    padding: 0;
+    order: 2;
+  }
+
+  .marquee {
+    order: 1;
+  }
 }
