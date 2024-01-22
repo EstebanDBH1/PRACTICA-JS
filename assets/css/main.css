@@ -110,11 +110,14 @@
   font-size: 31px;
   line-height: 1.4em;
   grid-column: 1/9;
+  text-wrap: pretty;
 }
 
 .txt-service-2 {
   grid-column: 10/13;
   line-height: 1.4em;
+  opacity: 0.5;
+  text-wrap: pretty;
 }
 
 /* SECTION PROJECT */
@@ -168,6 +171,7 @@ canvas {
 /* ====================== MEDIA QUERYS =================================== */
 
 /* MEDIA QUERYS SECTION HERO */
+
 @media (max-width: 940px) {
   .header {
     padding: 2rem 1rem;
@@ -187,6 +191,10 @@ canvas {
 
   .marquee {
     font-size: 140px;
+  }
+
+  .txt-service {
+    font-size: 24px;
   }
 }
 
@@ -213,4 +221,23 @@ canvas {
   .marquee {
     order: 1;
   }
+
+  /* text about */
+  .text-service {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .txt-service-2 {
+    width: 70%;
+  }
+
+  /* project section */
+
+  #project-section {
+    display: none;
+  }
 }
+
+/* media querys about section */

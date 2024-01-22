@@ -1,4 +1,3 @@
-/*
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 const links = [
@@ -146,8 +145,6 @@ function animate() {
 
 animate();
 //data barba.js page transition
-
-*/
 
 // TEXT MARQUEE
 gsap.to(".marquee_part", {

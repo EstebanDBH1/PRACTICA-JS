@@ -22,7 +22,6 @@
   --tipo-principal: "Neue Montreal", Arial, Helvetica, sans-serif;
   --tipo-secundaria: Verdana;
 
-
   /*paddings */
   --section-padding: 5rem;
 }
@@ -171,6 +170,19 @@ body {
 }
 
 .container {
-  width: 1000px;
+  width: 70%;
   margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 100%;
+  }
 }
