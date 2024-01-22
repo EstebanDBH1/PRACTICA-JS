@@ -145,3 +145,18 @@ function animate() {
 
 animate();
 //data barba.js page transition
+
+// TEXT MARQUEE
+gsap.to(".marquee_part", {
+  xPercent: -100,
+  repeat: -1,
+  duration: 13,
+  ease: "linear",
+});
+
+/* btn */
+const btn = document.querySelector(".btn-expand");
+
+window.addEventListener("scroll", () => {
+  btn.classList.toggle("active", window.scrollY > 100);
+});
