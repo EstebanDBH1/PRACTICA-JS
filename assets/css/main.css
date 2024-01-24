@@ -7,8 +7,8 @@
   justify-content: space-between;
   position: relative;
   padding-bottom: 4rem;
-  background-color: #000;
-  color: #efefef;
+  background-color: #9da29e;
+  color: #fff;
 }
 
 .header {
@@ -57,8 +57,10 @@
 }
 
 .info-hero-home {
+  padding-top: 5rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  align-items: center;
 }
 
 .located {
@@ -226,6 +228,12 @@ canvas {
     justify-content: space-between;
     align-items: center;
   }
+
+  /* text about */
+
+  .txt-service {
+    font-size: 24px;
+  }
 }
 
 /* MEDIA QUERYS SECTION HERO */
@@ -262,11 +270,13 @@ canvas {
 }
 
 @media (max-width: 720px) {
-  .text-hero-home {
+
+
+  /* .text-hero-home {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-  }
+  }*/
 
   .info-hero-home {
     order: 2;
@@ -284,6 +294,7 @@ canvas {
 
   .marquee {
     order: 1;
+    padding-top: 4rem;
   }
 
   /* text about */

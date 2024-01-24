@@ -177,6 +177,13 @@ body {
   padding: 0 1rem;
 }
 
+@media (max-width: 1040px) {
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 720px) {
   .container {
     width: 540px;
