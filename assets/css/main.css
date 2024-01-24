@@ -319,8 +319,8 @@ canvas {
     padding: 10px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.104);
-    backdrop-filter: blur(30px);
-  }
+    backdrop-filter: blur(40px);
+  } 
 
   .co-dots {
     position: relative;
