@@ -200,12 +200,13 @@ canvas {
   flex-direction: column;
   padding-bottom: 4rem;
   border-bottom: solid 1px #7c7c7c;
+  text-wrap: pretty;
 }
 
 .line-top {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 10px;
 }
 
 .cta-gif-image {
@@ -449,4 +450,12 @@ canvas {
   }
 }
 
+
+
+
+@media(max-width: 400px){
+  .cta-footer-text{
+    font-size: 11vw;
+  }
+}
 /* media querys about section */
