@@ -195,7 +195,7 @@ canvas {
 }
 
 .cta-footer-text {
-  font-size: 81px;
+  font-size: 71px;
   display: flex;
   flex-direction: column;
   padding-bottom: 4rem;
@@ -442,6 +442,7 @@ canvas {
 
   .text-right {
     padding: 1rem 0;
+    justify-content: space-between;
   }
 }
 
