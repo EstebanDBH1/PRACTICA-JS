@@ -1,4 +1,9 @@
 /*========== HERO AND HEADER ================= */
+
+.wrapper-main {
+  padding-bottom: var(--section-padding);
+}
+
 .hero-home {
   width: 100%;
   min-height: 100vh;
@@ -174,6 +179,94 @@ canvas {
   font-size: 71px;
 }
 
+/*==================== FOOTER =====================*/
+
+.footer {
+  background-color: #0e0e0e;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.co-footer {
+  padding-top: 9rem;
+}
+
+.cta-footer-text {
+  font-size: 81px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  border-bottom: solid 1px #7c7c7c;
+}
+
+.line-top {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cta-gif-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.cta-info-footer {
+  padding-top: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.cta-info-footer a {
+  display: inline-block;
+  border: solid 1px #7c7c7c;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+
+.text-right {
+  display: flex;
+  gap: 2rem;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.localtime {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text-right h4,
+.text-left h4 {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #7c7c7c;
+}
+
+.text-left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list-social {
+  display: flex;
+  gap: 1rem;
+}
+
 /* ====================== MEDIA QUERYS =================================== */
 
 /*========= section project mobile ======= */
@@ -267,11 +360,22 @@ canvas {
     width: 100%;
     padding: 0 2rem;
   }
+
+  /* footer */
+  .cta-footer-text {
+    font-size: 45px;
+  }
+  .cta-gif-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-bottom {
+    padding: 1.5rem;
+  }
 }
 
 @media (max-width: 720px) {
-
-
   /* .text-hero-home {
     display: flex;
     flex-direction: column;
@@ -309,6 +413,31 @@ canvas {
   }
 
   /* project section */
+
+  /* footer */
+
+  .cta-info-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cta-info-footer a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .socials {
+    padding-bottom: 2rem;
+    border-bottom: solid 1px #7c7c7c8c;
+  }
+
+  .text-right {
+    padding: 1rem 0;
+  }
 }
 
 @media (max-width: 620px) {
