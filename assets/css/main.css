@@ -316,10 +316,10 @@ canvas {
   .btn-mobile {
     display: block;
     cursor: pointer;
-    padding: 10px;
+    padding: 18px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.104);
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(50px) saturate(70%);
   } 
 
   .co-dots {
