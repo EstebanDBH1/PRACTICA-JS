@@ -319,7 +319,7 @@ canvas {
     padding: 18px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.041);
-    backdrop-filter: blur(50px) saturate(70%);
+    backdrop-filter: blur(50px);
   } 
 
   .co-dots {
