@@ -171,7 +171,8 @@ body {
 }
 
 .container {
-  width: 70%;
+  /*width: 70%;*/
+  width: 1024px;
   margin: 0 auto;
   padding: 0 1rem;
 }
