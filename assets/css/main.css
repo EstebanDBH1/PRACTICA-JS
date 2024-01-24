@@ -182,7 +182,7 @@ canvas {
 /*==================== FOOTER =====================*/
 
 .footer {
-  background-color: #0e0e0e;
+  background-color: #2e2e2e;
   color: #fff;
   position: relative;
   display: flex;
@@ -416,6 +416,10 @@ canvas {
   /* project section */
 
   /* footer */
+
+  .co-footer{
+    padding-top: 5rem;
+  }
 
   .cta-info-footer {
     flex-direction: column;
