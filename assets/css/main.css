@@ -122,6 +122,10 @@
 
 /* SECTION PROJECT */
 
+#section-project-mobile {
+  display: none;
+}
+
 #project-section {
   padding-top: var(--section-padding);
 }
@@ -170,8 +174,61 @@ canvas {
 
 /* ====================== MEDIA QUERYS =================================== */
 
-/* MEDIA QUERYS SECTION HERO */
+/*========= section project mobile ======= */
+@media (max-width: 1024px) {
+  #project-section {
+    display: none;
+  }
 
+  #section-project-mobile {
+    display: block;
+    padding-top: var(--section-padding);
+  }
+  .container-project-mobile {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container-project-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .co-image-project-mobile {
+    width: 100%;
+    height: 100%;
+  }
+
+  .co-image-project-mobile img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .title-project-mobile {
+    font-size: 31px;
+  }
+
+  .co-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .text-top {
+    padding-bottom: 1rem;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.592);
+  }
+
+  .text-bottom {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* MEDIA QUERYS SECTION HERO */
 @media (max-width: 940px) {
   .header {
     padding: 2rem 1rem;
@@ -196,6 +253,12 @@ canvas {
   .txt-service {
     font-size: 24px;
   }
+
+  /* responsive mobile section projects */
+  .container-project-mobile {
+    width: 100%;
+    padding: 0 2rem;
+  }
 }
 
 @media (max-width: 720px) {
@@ -212,6 +275,7 @@ canvas {
     padding: 0 1rem;
     align-items: center;
   }
+
   .located {
     padding: 0;
     order: 2;
@@ -234,9 +298,12 @@ canvas {
   }
 
   /* project section */
+}
 
-  #project-section {
-    display: none;
+@media (max-width: 620px) {
+  .container-project-mobile {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
   }
 }
 
