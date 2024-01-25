@@ -154,4 +154,14 @@ gsap.to(".marquee_part", {
   ease: "linear",
 });
 
-/* btn */
+/* BTN MENU EXPAND FUNCIONS */
+let tl = gsap.timeline({ paused: true });
+
+const btnMenu = document.querySelector(".btn-toggle-menu");
+btnMenu.addEventListener("click", () => {
+  gsap.to(".menu-overlay-expand", {
+    x: "0",
+    ease: "power2.out",
+    duration: 1,
+  });
+});
