@@ -330,7 +330,6 @@ canvas {
   }
 
   /* MENU EXPAND OVERLAY */
-
   .menu-overlay-expand {
     display: block;
     position: fixed;
@@ -416,7 +415,7 @@ canvas {
   }
 
   .marquee {
-    font-size: 140px;
+    font-size: 170px;
   }
 
   .txt-service {
