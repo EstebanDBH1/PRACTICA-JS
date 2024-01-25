@@ -23,6 +23,10 @@
   padding: 2rem;
 }
 
+.menu-overlay-expand {
+  display: none;
+}
+
 .btn-mobile {
   display: none;
 }
@@ -323,7 +327,9 @@ canvas {
   }
 
   /* MENU EXPAND OVERLAY */
+
   .menu-overlay-expand {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -333,6 +339,24 @@ canvas {
     z-index: 2;
     overflow: hidden;
     transform: translateX(100%);
+  }
+
+  .co-menu-overlay-expand {
+    padding: 8rem 1rem;
+  }
+
+  .txt-navigation {
+    color: #7c7c7c;
+    padding-bottom: 1.5rem;
+    border-bottom: solid 1px #7c7c7c6b;
+  }
+
+  .nav-list-mobile {
+    padding-top: 1.5rem;
+  }
+
+  .link-nav-mobile {
+    font-size: 45px;
   }
 
   .btn-mobile {

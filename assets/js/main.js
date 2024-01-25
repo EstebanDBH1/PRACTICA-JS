@@ -170,7 +170,7 @@ const openNav = () => {
 openNav();
 
 function animateOpenNav() {
-  tl.to(".menu-overlay-expand, body", {
+  tl.to(".menu-overlay-expand", {
     x: 0,
     ease: "power2.out",
     duration: 1,
