@@ -147,11 +147,35 @@ animate();
 //data barba.js page transition
 
 // TEXT MARQUEE
-gsap.to(".marquee_part", {
-  xPercent: -100,
-  repeat: -1,
-  duration: 13,
-  ease: "linear",
+
+let currentScroll = 0;
+let isScrollDown = true;
+
+let tween = gsap
+  .to(".marquee_part", {
+    xPercent: -100,
+    repeat: -1,
+    duration: 13,
+    ease: "linear",
+  })
+  .totalProgress(0.5);
+
+gsap.set(".marquee__inner", {
+  xPercent: -50,
+});
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > currentScroll) {
+    isScrollDown = true;
+  } else {
+    isScrollDown = false;
+  }
+
+  gsap.to(tween, {
+    timeScale: isScrollDown ? 1 : -1,
+  });
+
+  currentScroll = window.scrollY;
 });
 
 /* BTN MOBILE FUNCIONS */
