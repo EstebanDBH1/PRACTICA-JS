@@ -172,7 +172,7 @@ openNav();
 function animateOpenNav() {
   tl.to(".menu-overlay-expand", {
     x: 0,
-    ease: "power2.out",
+    ease: "Power3.easeInOut",
     duration: 1,
   }).reverse();
 }

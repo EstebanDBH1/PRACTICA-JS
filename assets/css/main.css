@@ -172,7 +172,7 @@ canvas {
 /*==================== FOOTER =====================*/
 
 .footer {
-  background-color: #2e2e2e;
+  background-color: #253b39;
   color: #fff;
   position: relative;
   display: flex;
@@ -190,13 +190,15 @@ canvas {
   flex-direction: column;
   padding-bottom: 4rem;
   border-bottom: solid 1px #7c7c7c;
-  text-wrap: pretty;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.line-top {
+.co-gif-image-footer {
+  display: inline-block;
+  width: 100%;
   display: flex;
-  align-items: center;
-  gap: 10px;
+  justify-content: center;
 }
 
 .cta-gif-image {
