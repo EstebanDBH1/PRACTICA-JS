@@ -160,6 +160,7 @@ const tl = gsap.timeline({ paused: true });
 const openNav = () => {
   animateOpenNav();
   const navBtn = document.querySelector(".btn-mobile");
+  const body = document.querySelector("body");
 
   navBtn.onclick = function (e) {
     tl.reversed(!tl.reversed());
@@ -169,9 +170,10 @@ const openNav = () => {
 openNav();
 
 function animateOpenNav() {
-  tl.to(".menu-overlay-expand", {
+  tl.to(".menu-overlay-expand, body", {
     x: 0,
     ease: "power2.out",
-    duration: 1
+    duration: 1,
+    overflow: "hidden",
   }).reverse();
 }
