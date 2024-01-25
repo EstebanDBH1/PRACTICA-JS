@@ -174,6 +174,5 @@ function animateOpenNav() {
     x: 0,
     ease: "power2.out",
     duration: 1,
-    overflow: "hidden",
   }).reverse();
 }
