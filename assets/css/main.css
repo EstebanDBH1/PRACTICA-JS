@@ -1,4 +1,8 @@
 /*========== HERO AND HEADER ================= */
+.wrapper-all {
+  overflow: hidden;
+}
+
 .wrapper-main {
   padding-bottom: var(--section-padding);
 }
