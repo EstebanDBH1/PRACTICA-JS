@@ -15,8 +15,8 @@
   justify-content: space-between;
   position: relative;
   padding-bottom: 4rem;
-  background-color: /* #9da29e*/ #1a1a1a;
-  color: #efefef;
+  background-color: /* #9da29e*/ #253b39;
+  color: #fff;
 }
 
 .header {
@@ -185,13 +185,14 @@ canvas {
 }
 
 .cta-footer-text {
-  font-size: 71px;
+  font-size: 81px;
   display: flex;
   flex-direction: column;
   padding-bottom: 4rem;
   border-bottom: solid 1px #7c7c7c;
   text-transform: uppercase;
   text-align: center;
+  line-height: 1;
 }
 
 .co-gif-image-footer {
