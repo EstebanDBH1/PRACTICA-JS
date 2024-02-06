@@ -147,7 +147,6 @@ animate();
 //data barba.js page transition
 
 // TEXT MARQUEE
-
 let currentScroll = 0;
 let isScrollDown = true;
 

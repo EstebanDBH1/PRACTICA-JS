@@ -21,9 +21,11 @@
   /* Tipografía */
   --tipo-principal: "Neue Montreal", Arial, Helvetica, sans-serif;
   --tipo-secundaria: Verdana;
-
   /*paddings */
   --section-padding: 5rem;
+
+  --color-all: #e43d13;
+  --bg-color: #ece9e0;
 }
 
 /* Reseteamos los margin y paddings de todas las etiquetas */
@@ -167,7 +169,8 @@ body {
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #1c1d20;
+  color: var(--color-all);
+  background-color: #ece9e0;
 }
 
 .container {
