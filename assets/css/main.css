@@ -347,7 +347,7 @@ canvas {
   }
 
   .txt-navigation {
-    color: #7c7c7c;
+    color: #fedada;
     padding-bottom: 1.5rem;
     border-bottom: solid 1px #7c7c7c6b;
   }
@@ -365,7 +365,7 @@ canvas {
     cursor: pointer;
     padding: 18px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.041);
+    background-color: #edeae055;
     backdrop-filter: blur(50px);
     position: relative;
     z-index: 4;
@@ -381,7 +381,7 @@ canvas {
     display: inline-block;
     width: 4px;
     height: 4px;
-    background-color: #fff;
+    background-color: var(--color-all);
     border-radius: 50%;
     position: absolute;
   }
@@ -501,7 +501,7 @@ canvas {
 
   .socials {
     padding-bottom: 2rem;
-    border-bottom: solid 1px #7c7c7c8c;
+    border-bottom: solid 1px var(--bg-color);
   }
 
   .text-right {
